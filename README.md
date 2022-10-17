@@ -1,8 +1,5 @@
 # Kaggle Solutions
 
-## Contributing
-Many competitions are missing links to their solutions, evaluation and type.
-
 To contribute:
  - Fork the repo
  - Edit the **competitions.yaml** file
