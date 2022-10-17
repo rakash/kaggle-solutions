@@ -1,8 +1,4 @@
-# Kaggle Past Solutions
-A searchable and sortable compilation of [Kaggle](https://www.kaggle.com/) past solutions. [Website](http://ndres.me/kaggle-past-solutions/)
-
-## About
-If you are facing a data science problem or just want to learn, there is a good chance that you can find inspiration here !
+# Kaggle Solutions
 
 ## Contributing
 Many competitions are missing links to their solutions, evaluation and type.
