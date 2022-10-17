@@ -1,47 +1,3 @@
-- competitionDescription: Can you classify cloud structures from satellites?
-  competitionId: 13333
-  competitionName: null
-  competitionTitle: Understanding Clouds from Satellite Images
-  competitionUrl: /c/understanding_cloud_organization
-  coverImageUrl: null
-  deadline: '2019-11-18T23:59:00Z'
-  evaluationMetric: Dice coefficient
-  hostSegment: Research
-  organizationAvatarUrl: null
-  organizationName: Max Planck Institute for Meteorology
-  organizationUrl:
-  rewardQuantity: 10000.0
-  rewardTypeName: USD
-  solutions:
-  - label: 1st place solution
-    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/118080
-    tags: resnet34, efficientnet-b1, resnext10132x8dwsl, resnext10132x16dwsl
-  - label: 3rd place solution
-    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/117949
-    tags: resnet34-FPN, soft DICE loss, BCE loss
-  - label: 4th place solution
-    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/118016
-    tags: Resnet34, SE-ResNext-50, EfficientNet-B4
-  - label: 5th place solution
-    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/117987
-    tags: efficientnet-b1, resnet50, efficientnet-b3, fpn, unet
-  - label: 6th place solution
-    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/118017
-    tags: efficientnet-b4, unet, efficientnet-b4, fpn
-  - label: 7th place solution
-    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/117974
-    tags: efficientnet e5/7-FPNï¼Œse101-FPN, se101-linket, Dice loss
-  repositories:
-  - label: 2nd place code
-    url: https://github.com/darraghdog/rsna
-  - label: 3rd place code
-    url: https://github.com/okotaku/kaggle_rsna2019_3rd_solution
-  - label: 5th place code
-    url: https://github.com/ngxbac/Kaggle-RSNA
-  thumbnailImageUrl: https://storage.googleapis.com/kaggle-competitions/kaggle/13333/logos/thumb76_76.png?t=2019-06-07-19-19-14
-  types:
-  - image data
-  - Atmospheric sciences
 - competitionDescription: Identify acute intracranial hemorrhage and its subtypes
   competitionId: 13451
   competitionName: null
@@ -118,6 +74,50 @@
   types:
   - image data
   - Object detection
+- competitionDescription: Can you classify cloud structures from satellites?
+  competitionId: 13333
+  competitionName: null
+  competitionTitle: Understanding Clouds from Satellite Images
+  competitionUrl: /c/understanding_cloud_organization
+  coverImageUrl: null
+  deadline: '2019-11-18T23:59:00Z'
+  evaluationMetric: Dice coefficient
+  hostSegment: Research
+  organizationAvatarUrl: null
+  organizationName: Max Planck Institute for Meteorology
+  organizationUrl:
+  rewardQuantity: 10000.0
+  rewardTypeName: USD
+  solutions:
+  - label: 1st place solution
+    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/118080
+    tags: resnet34, efficientnet-b1, resnext10132x8dwsl, resnext10132x16dwsl
+  - label: 3rd place solution
+    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/117949
+    tags: resnet34-FPN, soft DICE loss, BCE loss
+  - label: 4th place solution
+    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/118016
+    tags: Resnet34, SE-ResNext-50, EfficientNet-B4
+  - label: 5th place solution
+    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/117987
+    tags: efficientnet-b1, resnet50, efficientnet-b3, fpn, unet
+  - label: 6th place solution
+    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/118017
+    tags: efficientnet-b4, unet, efficientnet-b4, fpn
+  - label: 7th place solution
+    url: https://www.kaggle.com/c/understanding_cloud_organization/discussion/117974
+    tags: efficientnet e5/7-FPNï¼Œse101-FPN, se101-linket, Dice loss
+  repositories:
+  - label: 2nd place code
+    url: https://github.com/darraghdog/rsna
+  - label: 3rd place code
+    url: https://github.com/okotaku/kaggle_rsna2019_3rd_solution
+  - label: 5th place code
+    url: https://github.com/ngxbac/Kaggle-RSNA
+  thumbnailImageUrl: https://storage.googleapis.com/kaggle-competitions/kaggle/13333/logos/thumb76_76.png?t=2019-06-07-19-19-14
+  types:
+  - image data
+  - Atmospheric sciences
 - competitionDescription: Can you detect and classify defects in steel?
   competitionId: 14241
   competitionName: null
