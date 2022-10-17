@@ -25,7 +25,7 @@ table .tablesort-desc:after{
 }
 
 table .tablesort-asc,table .tablesort-desc{
-    background-color:rgba(141, 192, 219, 0.25);
+    background-color: rgba(22, 205, 47, 0.25);
 }
 
 table .tablesort-sortable:hover:after, table .tablesort-asc:after, table .tablesort-desc:after {
