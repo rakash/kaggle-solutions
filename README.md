@@ -5,7 +5,7 @@ Many competitions are missing links to their solutions, evaluation and type.
 
 To contribute:
  - Fork the repo
- - Edit the **competitions.yaml** file (you can even edit it with Github's editor)
+ - Edit the **competitions.yaml** file
  - Make a pull request
 
 For each competition missing the data, please add `types` and `solutions`.
