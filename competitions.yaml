@@ -1,46 +1,3 @@
-- competitionDescription: Identify acute intracranial hemorrhage and its subtypes
-  competitionId: 13451
-  competitionName: null
-  competitionTitle: RSNA Intracranial Hemorrhage Detection
-  competitionUrl: /c/rsna-intracranial-hemorrhage-detection
-  coverImageUrl: null
-  deadline: '2019-11-13T23:59:00Z'
-  evaluationMetric: weighted multi-label logarithmic loss
-  hostSegment: Featured
-  organizationAvatarUrl: null
-  organizationName: Radiological Society of North America
-  organizationUrl:
-  rewardQuantity: 25000.0
-  rewardTypeName: USD
-  solutions:
-  - label: 2nd place solution
-    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117228
-    tags: Resnext101, LSTM, Bi-BLSTM
-  - label: 3rd place solution
-    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117223
-    tags: SeResNeXt50, SeResNeXt101
-  - label: 5th place solution
-    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117232
-    tags: Resnet, Densenet
-  - label: 6th place solution
-    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117301
-    tags: xception, inception, EfficientnetB0, Resnet50, ResInc
-  - label: 7th place solution
-    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117293
-    tags: efficientnetb5, efficientnetb6, inceptionresnetv2, inception_v4, senet154, seresnext50, seresnext101
-  - label: 9th place solution
-    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117211
-    tags: resnet
-  repositories:
-  - label: 2nd place code
-    url: https://github.com/darraghdog/rsna
-  - label: 3rd place code
-    url: https://github.com/okotaku/kaggle_rsna2019_3rd_solution
-  - label: 5th place code
-    url: https://github.com/ngxbac/Kaggle-RSNA
-  thumbnailImageUrl: https://storage.googleapis.com/kaggle-competitions/kaggle/13451/logos/thumb76_76.png?t=2019-08-26-19-58-36
-  types:
-  - image data
 - competitionDescription: Can you advance the state of the art in 3D object detection?
   competitionId: 15768
   competitionName: null
@@ -4102,3 +4059,46 @@
   types:
   - Natural Language Processing (NLP)
   - Sentiment analysis
+- competitionDescription: Identify acute intracranial hemorrhage and its subtypes
+  competitionId: 13451
+  competitionName: null
+  competitionTitle: RSNA Intracranial Hemorrhage Detection
+  competitionUrl: /c/rsna-intracranial-hemorrhage-detection
+  coverImageUrl: null
+  deadline: '2019-11-13T23:59:00Z'
+  evaluationMetric: weighted multi-label logarithmic loss
+  hostSegment: Featured
+  organizationAvatarUrl: null
+  organizationName: Radiological Society of North America
+  organizationUrl:
+  rewardQuantity: 25000.0
+  rewardTypeName: USD
+  solutions:
+  - label: 2nd place solution
+    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117228
+    tags: Resnext101, LSTM, Bi-BLSTM
+  - label: 3rd place solution
+    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117223
+    tags: SeResNeXt50, SeResNeXt101
+  - label: 5th place solution
+    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117232
+    tags: Resnet, Densenet
+  - label: 6th place solution
+    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117301
+    tags: xception, inception, EfficientnetB0, Resnet50, ResInc
+  - label: 7th place solution
+    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117293
+    tags: efficientnetb5, efficientnetb6, inceptionresnetv2, inception_v4, senet154, seresnext50, seresnext101
+  - label: 9th place solution
+    url: https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117211
+    tags: resnet
+  repositories:
+  - label: 2nd place code
+    url: https://github.com/darraghdog/rsna
+  - label: 3rd place code
+    url: https://github.com/okotaku/kaggle_rsna2019_3rd_solution
+  - label: 5th place code
+    url: https://github.com/ngxbac/Kaggle-RSNA
+  thumbnailImageUrl: https://storage.googleapis.com/kaggle-competitions/kaggle/13451/logos/thumb76_76.png?t=2019-08-26-19-58-36
+  types:
+  - image data
