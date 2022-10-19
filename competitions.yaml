@@ -474,6 +474,8 @@
     url: https://www.kaggle.com/c/santander-customer-transaction-prediction/discussion/88913
   - label: 10th place solution
     url: https://www.kaggle.com/c/santander-customer-transaction-prediction/discussion/88997
+  - label: 13th place solution
+    url: https://www.kaggle.com/c/santander-customer-transaction-prediction/discussion/89083
   thumbnailImageUrl: https://storage.googleapis.com/kaggle-competitions/kaggle/10385/logos/thumb76_76.png?t=2019-02-15-16-53-52
   types:
   - Bank data
