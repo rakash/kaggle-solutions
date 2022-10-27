@@ -1,5 +1,5 @@
 - competitionDescription: Explore the Tokyo market with your data science skills
-  competitionId: 16564
+  competitionId: null
   competitionName: null
   competitionTitle: JPX Tokyo Stock Exchange Prediction
   competitionUrl: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction
@@ -15,9 +15,13 @@
   solutions:
   - label: 2nd place solution
     url: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/361482
+  - label: 4th place solution
+    url: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/359151
   repositories:
   - label: 2nd place solution
     url: https://www.kaggle.com/code/uioiuioi/2nd-place-solution
+  - label: 4th place solution
+    url: https://www.kaggle.com/code/flat831/4th-place-model/notebook?scriptVersionId=100052889
   thumbnailImageUrl: https://www.jpx.co.jp/english/common/images/other/b5b4pj000000f2gn-img/ogp.jpg
   types:
   - Time Series
