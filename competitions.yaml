@@ -1,3 +1,27 @@
+- competitionDescription: Explore the Tokyo market with your data science skills
+  competitionId: null
+  competitionName: null
+  competitionTitle: JPX Tokyo Stock Exchange Prediction
+  competitionUrl: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction
+  coverImageUrl: null
+  deadline: '2022-10-07T23:59:00Z'
+  evaluationMetric: Sharpe Ratio
+  hostSegment: Featured
+  organizationAvatarUrl: null
+  organizationName: JPX Market Innovation & Research, Inc.
+  organizationUrl:
+  rewardQuantity: 63000.0
+  rewardTypeName: USD
+  solutions:
+  - label: 2nd place solution
+    url: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/361482
+   repositories:
+  - label: 2nd place solution
+    url: https://www.kaggle.com/code/uioiuioi/2nd-place-solution
+  thumbnailImageUrl: 
+  types:
+  - Time Series
+  - Regression
 - competitionDescription: Can you advance the state of the art in 3D object detection?
   competitionId: 15768
   competitionName: null
@@ -312,20 +336,9 @@
   rewardQuantity: 50000.0
   rewardTypeName: USD
   solutions:
-  - label: 5th place solution
-    url: https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/82314
-  - label: 7th place solution
-    url: https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/82055
-    tags: word2vec features, Lightgbm, neural network
-  - label: 10th place solution
-    url: https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/82093
-  - label: 11th place solution
-    url: https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/82127
-  - label: 16th place solution
-    url: https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/82166
-  - label: 18th place solution
-    url: https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/82107
-  thumbnailImageUrl: https://storage.googleapis.com/kaggle-competitions/kaggle/10445/logos/thumb76_76.png?t=2018-10-24-17-14-05
+  - label: 2nd place solution
+    url: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/361482
+  thumbnailImageUrl: 
   types:
   - Regression
 - competitionDescription: Detect diabetic retinopathy to stop blindness before it's too late
