@@ -19,15 +19,26 @@
             <p></p>
         </div>
     </div>
-
+    
+    <script> 
+    var date = new Date(); 
+    var dd = date.getDate(); 
+    var mm = date.getMonth() + 1; 
+    var yyyy = date.getFullYear(); 
+    var newDate = mm + "-" + dd + "-" +yyyy; 
+    var p = document.getElementById("myId"); 
+    p.innerHTML = newDate; 
+    </script>
+	
     <form class="form-inline">
         <div class="form-group">
             <input ng-model="search.$" class="form-control" id="search" placeholder="Search">
 	    <br>
  	    <br>
-		<p><b>Last updated on 12th Nov 2022 </b></p>
+	    <p id="myId"></p> 
         </div>
     </form>
+   
     <div class="row" style="overflow: scroll">
         <table class="table" ts-wrapper>
             <thead>
