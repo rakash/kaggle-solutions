@@ -20,6 +20,15 @@
         </div>
     </div>
     
+    <form class="form-inline">
+        <div class="form-group">
+            <input ng-model="search.$" class="form-control" id="search" placeholder="Search">
+	    <br>
+ 	    <br>
+	    <p> Last updated on <span id='myId'></span>.</p>
+        </div>
+    </form>
+    
     <script> 
     var date = new Date(); 
     var dd = date.getDate(); 
@@ -30,15 +39,6 @@
     p.innerHTML = newDate; 
     </script>
 	
-    <form class="form-inline">
-        <div class="form-group">
-            <input ng-model="search.$" class="form-control" id="search" placeholder="Search">
-	    <br>
- 	    <br>
-	    <p id="myId"></p> 
-        </div>
-    </form>
-   
     <div class="row" style="overflow: scroll">
         <table class="table" ts-wrapper>
             <thead>
