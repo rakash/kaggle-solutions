@@ -25,7 +25,7 @@
             <input ng-model="search.$" class="form-control" id="search" placeholder="Search">
 	    <br>
  	    <br>
-	    <p> Last updated on <span id='myId'></span>.</p>
+	    <p> Last updated on <span id='myId'></span></p>
         </div>
     </form>
     
@@ -34,7 +34,7 @@
     var dd = date.getDate(); 
     var mm = date.getMonth() + 1; 
     var yyyy = date.getFullYear(); 
-    var newDate = mm + "-" + dd + "-" +yyyy; 
+    var newDate = mmm + "-" + dd + "-" +yyyy; 
     var p = document.getElementById("myId"); 
     p.innerHTML = newDate; 
     </script>
