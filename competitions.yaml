@@ -1,3 +1,29 @@
+- competitionDescription: Image Classification of Stroke Blood Clot Origin
+  competitionId: null
+  competitionName: null
+  competitionTitle: Mayo Clinic - STRIP AI
+  competitionUrl: https://www.kaggle.com/competitions/mayo-clinic-strip-ai/overview
+  coverImageUrl: null
+  deadline: '2022-10-05T23:59:00Z'
+  evaluationMetric: weighted multi-class logarithmic loss
+  hostSegment: Research
+  organizationAvatarUrl: null
+  organizationName: Mayo Clinic
+  organizationUrl: https://www.mayoclinic.org/
+  rewardQuantity: 10000.0
+  rewardTypeName: USD
+  solutions:
+  - label: 1st place solution
+    url: https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/357892
+  - label: 2nd place solution
+    url: https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/358089
+  - label: 3rd place solution
+    url: https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/358187
+  - label: 4th place solution
+    url: https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/364466
+  thumbnailImageUrl: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf5SnYxdaGT574Cik0XagpFtmoM0OHiKZxY8LSmsPDJuY_IiZAyWX5D1MKVzs_2rIjSgU&usqp=CAU
+  types:
+  - Image Classification
 - competitionDescription: Predict the relationship between code and comments
   competitionId: null
   competitionName: null
@@ -9,7 +35,7 @@
   hostSegment: Featured
   organizationAvatarUrl: null
   organizationName: Google and X.company
-  organizationUrl:
+  organizationUrl: https://x.company/
   rewardQuantity: 150000.0
   rewardTypeName: USD
   solutions:
