@@ -25,16 +25,17 @@
             <input ng-model="search.$" class="form-control" id="search" placeholder="Search">
 	    <br>
  	    <br>
-	    <p> Last updated on <span id='myId'></span></p>
+		<p><b>Last updated on <span id='myId'></span></b></p>
         </div>
     </form>
     
     <script> 
+    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
     var date = new Date(); 
     var dd = date.getDate(); 
     var mm = date.getMonth() + 1; 
     var yyyy = date.getFullYear(); 
-    var newDate = mmm + "-" + dd + "-" +yyyy; 
+    var newDate = months[mm] + "-" + dd + "-" +yyyy;
     var p = document.getElementById("myId"); 
     p.innerHTML = newDate; 
     </script>
