@@ -25,10 +25,15 @@
             <input ng-model="search.$" class="form-control" id="search" placeholder="Search">
 	    <br>
  	    <br>
-		<p><b>Last updated on <span id='input'></span></b></p>
+		<p><b>Last updated on <span id='modified'></span></b></p>
         </div>
     </form>
     
+    <script>
+        var lastModified = document.lastModified;
+        document.getElementById("modified").innerHTML = lastModified;
+    </script>
+
     <script> 
     var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
     var date = new Date(); 
@@ -38,10 +43,6 @@
     var newDate = dd+"-"+months[mm]+"-" +yyyy;
     var p = document.getElementById("myId"); 
     p.innerHTML = newDate; 
-
-    const file = document.getElementById('input').files[0];
-    const lastModifiedDate = new Date(file.lastModified);   
-    
     </script>
 	
     <div class="row" style="overflow: scroll">
