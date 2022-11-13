@@ -36,13 +36,12 @@
 
     <script> 
     var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-    const documentss = '/home/runner/work/kaggle-solutions/kaggle-solutions/competitions.yaml';
-    var date = new Date(documentss.lastModified); 
+    var date = new Date(document.lastModified); 
     var dd = date.getDate(); 
     var mm = date.getMonth(); 
     var yyyy = date.getFullYear(); 
     var newDate = dd+"-"+months[mm]+"-" +yyyy;
-    var p = documentss.getElementById("myId"); 
+    var p = document.getElementById("myId"); 
     p.innerHTML = newDate; 
     </script>
 	
