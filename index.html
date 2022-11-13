@@ -36,12 +36,13 @@
 
     <script> 
     var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-    var date = new Date(document.lastModified); 
+    var documentss = '/competitions.yaml';
+    var date = new Date(documentss.lastModified); 
     var dd = date.getDate(); 
     var mm = date.getMonth(); 
     var yyyy = date.getFullYear(); 
     var newDate = dd+"-"+months[mm]+"-" +yyyy;
-    var p = document.getElementById("myId"); 
+    var p = documentss.getElementById("myId"); 
     p.innerHTML = newDate; 
     </script>
 	
