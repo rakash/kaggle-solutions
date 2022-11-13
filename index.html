@@ -25,7 +25,7 @@
             <input ng-model="search.$" class="form-control" id="search" placeholder="Search">
 	    <br>
  	    <br>
-		<p><b>Last updated on <span id='myId'></span></b></p>
+		<p><b>Last updated on <span id='input'></span></b></p>
         </div>
     </form>
     
@@ -38,6 +38,10 @@
     var newDate = dd+"-"+months[mm]+"-" +yyyy;
     var p = document.getElementById("myId"); 
     p.innerHTML = newDate; 
+
+    const file = document.getElementById('input').files[0];
+    const lastModifiedDate = new Date(file.lastModified);   
+    
     </script>
 	
     <div class="row" style="overflow: scroll">
