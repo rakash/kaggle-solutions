@@ -41,10 +41,17 @@
     var mm = date.getMonth(); 
     var yyyy = date.getFullYear(); 
     var newDate = dd+"-"+months[mm]+"-" +yyyy;
-    var p = document.getElementById("myId"); 
+    var p = document.getElementById("myIdd"); 
     p.innerHTML = newDate; 
     </script>
-	
+
+    <script>
+    const Fs = require('fs')
+    const { mtime, ctime } = Fs.statSync('./competitions.yaml')
+    var p = document.getElementById("myId"); 
+    p.innerHTML = mtime; 
+    </script>
+
     <div class="row" style="overflow: scroll">
         <table class="table" ts-wrapper>
             <thead>
