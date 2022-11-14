@@ -9,8 +9,6 @@ app
       url: 'competitions.yaml'
     }).then(function successCallback(response) {
       $scope.competitions = jsyaml.load(response.data); // response data
-      var date = Date(headers()['last-modified']);
-      $scope.api_doc['competitions'] = date;
     }, function errorCallback(error) {
       console.error(error);
     });
