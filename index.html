@@ -29,13 +29,6 @@
         </div>
     </form>
     
-    <script>
-    const Fs = require('fs');
-    var { mtime, ctime } = Fs.statSync('/home/runner/work/kaggle-solutions/kaggle-solutions/competitions.yaml');
-    var p = document.getElementById("myId"); 
-    p.innerHTML = mtime;
-    </script>
-
     <script> 
     var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
     var date = new Date(document.lastModified); 
@@ -43,8 +36,15 @@
     var mm = date.getMonth();
     var yyyy = date.getFullYear(); 
     var newDate = dd+"-"+months[mm]+"-" +yyyy;
-    var p = document.getElementById("myIdd"); 
+    var p = document.getElementById("myId");
     p.innerHTML = newDate;
+    </script>
+
+    <script>
+    const Fs = require('fs');
+    var { mtime, ctime } = Fs.statSync('/home/runner/work/kaggle-solutions/kaggle-solutions/competitions.yaml');
+    var p = document.getElementById("myIdd");
+    p.innerHTML = mtime;
     </script>
 
     <div class="row" style="overflow: scroll">
