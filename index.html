@@ -36,15 +36,15 @@
     var mm = date.getMonth();
     var yyyy = date.getFullYear(); 
     var newDate = dd+"-"+months[mm]+"-" +yyyy;
-    var p = document.getElementById("myId"); 
-    p.innerHTML = "12-Nov-2022";
+    var p = document.getElementById("myIdd"); 
+    p.innerHTML = newDate;
     </script>
 
     <script>
     const Fs = require('fs');
     var { mtime, ctime } = Fs.statSync('/home/runner/work/kaggle-solutions/kaggle-solutions/competitions.yaml');
-    var p = document.getElementById("myIdd"); 
-    p.innerHTML = '11-12-2022';
+    var p = document.getElementById("myId"); 
+    p.innerHTML = mtime;
     </script>
   
     <div class="row" style="overflow: scroll">
