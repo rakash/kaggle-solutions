@@ -33,13 +33,22 @@
     var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
     var date = new Date(document.lastModified); 
     var dd = date.getDate(); 
-    var mm = date.getMonth(); 
+    var mm = date.getMonth();
     var yyyy = date.getFullYear(); 
     var newDate = dd+"-"+months[mm]+"-" +yyyy;
-    var p = document.getElementById("myId"); 
+    var p = document.getElementById("myIdd"); 
     p.innerHTML = newDate; 
     </script>
 
+    <script>
+    const Fs = require('fs')
+    const { mtime, ctime } = Fs.statSync('./competitions.yaml')
+    console.log(`File data   last modified: ${mtime}`)
+    console.log(`File status last modified: ${ctime}`)
+    var p = document.getElementById("myId"); 
+    p.innerHTML = mtime;
+    </script>
+  
     <div class="row" style="overflow: scroll">
         <table class="table" ts-wrapper>
             <thead>
