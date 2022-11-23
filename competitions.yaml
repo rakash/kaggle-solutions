@@ -1,3 +1,24 @@
+- competitionDescription: Analyze horse racing data to improve the health of the horse and strategy of competition
+  competitionId: null
+  competitionName: Big data derby 2022
+  competitionTitle: Big data derby 2022
+  competitionUrl: /competitions/big-data-derby-2022
+  coverImageUrl: null
+  deadline: '2022-11-10T23:59:00Z'
+  evaluationMetric: Relevance, Presentation and Competence
+  hostSegment: Analytics
+  organizationAvatarUrl: null
+  organizationName: NYRA & NYTHA 
+  organizationUrl: https://www.nyra.com
+  rewardQuantity: 10000.0
+  rewardTypeName: USD
+  solutions:
+  - label: Discussion Forum
+    url: https://www.kaggle.com/competitions/big-data-derby-2022/discussion
+  thumbnailImageUrl: https://storage.googleapis.com/kaggle-media/competitions/Big%20Data%20Derby/NYRA_Logo_400x400.png
+  types:
+  - Tabular data
+  - Sports
 - competitionDescription: Image Classification of Stroke Blood Clot Origin
   competitionId: null
   competitionName: null
