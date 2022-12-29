@@ -1,3 +1,28 @@
+- competitionDescription: Identify plays based upon video footage
+  competitionId: null
+  competitionName: DFL - Bundesliga Data Shootout
+  competitionTitle: DFL - Bundesliga Data Shootout
+  competitionUrl: /competitions/dfl-bundesliga-data-shootout
+  coverImageUrl: null
+  deadline: '2022-12-20T23:59:00Z'
+  evaluationMetric: Average Precision
+  hostSegment: Analytics
+  organizationAvatarUrl: null
+  organizationName: DFL
+  organizationUrl: https://www.dfl.de/en/
+  rewardQuantity: 25000.0
+  rewardTypeName: USD
+  solutions:
+  - label: 1st place solution
+    url: https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/359932
+  - label: 2nd place solution
+    url: https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/360097
+  - label: 3rd place solution
+    url: https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/360236
+  thumbnailImageUrl: https://media.dfl.de/sites/3/2022/03/dfl-logo-2017.jpeg
+  types:
+  - Computer Vision
+  - Sports
 - competitionDescription: Analyze horse racing data to improve the health of the horse and strategy of competition
   competitionId: null
   competitionName: Big data derby 2022
